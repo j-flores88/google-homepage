@@ -31,7 +31,10 @@ input {
     display: flex;
     flex: 100%;
     outline: none;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+input::placeholder {
+    padding-left: 15px;
 }
 #icon {
     margin: 50px;
