@@ -1,1 +1,2 @@
 This is my first project on TOP. Replicating the Google page home page.
+In this exercise i learned a better way to make a navbar. I always struggled with navbars but thanks to some tutorial i watched while working on this project i found a better way to create navbars.

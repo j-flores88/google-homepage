@@ -1,3 +1,6 @@
+html {
+    width: 100%;
+}
 #main {
     display: grid;
     justify-content: center;
@@ -37,6 +40,9 @@ a {
     text-decoration: none;
     padding: 10px 0px;
 }
+a:hover {
+    text-decoration: underline;
+}
 #navbar {
     display: grid;
     grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
@@ -70,6 +76,47 @@ a {
 }
 #sign-in {
     grid-area: sign-in; 
+    justify-self: center;
+    align-self: center;
+}
+#footer {
+    display: grid;
+    grid-template-columns: 100px 100px 125px 1fr 75px 75px 75px;
+    grid-template-rows: 50px;
+    grid-template-areas: "ads biz how . privacy terms settings";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #f2f2f2;
+}
+#ads {
+    grid-area: ads;
+    justify-self: center;
+    align-self: center;
+}
+#biz {
+    grid-area: biz;
+    justify-self: center;
+    align-self: center;
+}
+#how {
+    grid-area: how;
+    justify-self: center;
+    align-self: center;
+}
+#privacy {
+    grid-area: privacy;
+    justify-self: center;
+    align-self: center;
+}
+#terms {
+    grid-area: terms;
+    justify-self: center;
+    align-self: center;
+}
+#settings {
+    grid-area: settings;
     justify-self: center;
     align-self: center;
 }
