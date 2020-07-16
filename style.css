@@ -9,12 +9,10 @@ html {
 #searchBox {
     justify-content: center;
     display: inline-flex;
-    margin: 25px;
 }
 #searchButtons {
     justify-content: center;
     display: inline-flex;
-    padding: 5px;
 }
 #icon {
     display: inline-flex;
@@ -31,10 +29,25 @@ input {
     display: flex;
     flex: 100%;
     outline: none;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 1px solid #dfdfdf;
+    height: 40px;
+}
+#mag {
+    width: 30px;
+    height: auto;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+#mic{
+    width: 30px;
+    position: relative;
+    right: 40px;
+    bottom: 30px;
 }
 input::placeholder {
-    padding-left: 15px;
+    padding-left: 45px;
 }
 #icon {
     margin: 50px;
